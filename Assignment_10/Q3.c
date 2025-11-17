@@ -40,7 +40,8 @@ int main() {
   int blockSize[10], processSize[10], blockNum, processNum;
   int allocation[10];
 
-  printf("Enter number of memory blocks: ");
+  printf("\n--- WORST FIT MEMORY ALLOCATION ---\n");
+  printf("\nEnter number of memory blocks: ");
   scanf("%d", &blockNum);
 
   printf("Enter block sizes: ");
